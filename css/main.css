@@ -434,10 +434,23 @@ footer {
    ========================================================================== */
 
 @media only screen and (min-width:768px) {
+  
+  /* GENERAL STYLES */
+  
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3, h4 {
+    font-size: 1.5em;
+  }
+
+  /* HEADER / TABLET */
 
   header {
     display: flex;
@@ -540,9 +553,20 @@ footer {
 }
 
 @media only screen and (min-width:1200px){
+
+/*DESKTOP GENERAL STYLES ***/
   .content-wrapper {
     max-width: 960px;
   }
+  h3, h4 {
+    font-size: 1.875em;
+  }
+  p {
+    font-size: 1.125em;
+    line-height: 1.5em;
+  }
+
+  /* DESKTOP HEADER*/
   header nav {
     width: 20%;
   }
