@@ -444,8 +444,49 @@ footer {
 }
 
 @media only screen and (min-width:1200px){
+  .content-wrapper {
+    max-width: 960px;
+  }
+  header nav {
+    width: 20%;
+  }
+  .hero-area h1 {
+    width: 55%;
+  }
+  aside .content-wrapper {
+    justify-content: space-around;
+  } 
+  aside .form-description, aside .form {
+    width: 25%;
+  }
+  .features article {
+    flex-basis: 33%;
+  }
+  .features-item-description {
+    width: 160px;
+  }
+  .reviews article {
+    width: 50%;
+  }
 
-}
+  /**FAQ styles**/
+  .faq h1 {
+    width: 100%;
+  }
+
+  /***Mission styles**/
+  .mission h1 {
+    width: 90%;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contact-content div {
+    width: 50%;
+    margin: 0;
+  }
 
 /* ==========================================================================
    Print styles.
@@ -521,4 +562,3 @@ footer {
     page-break-after: avoid;
   }
 }
-
