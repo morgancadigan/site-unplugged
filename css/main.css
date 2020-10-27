@@ -130,11 +130,11 @@ textarea {
   }
    
   img {
-   
+   width: 100%;
   }
    
   figure {
-   
+   margin: 0;
   }
    
   address {
@@ -233,7 +233,7 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
-
+  
   /* Newsletter styles*/
   aside {
     display: flex;
