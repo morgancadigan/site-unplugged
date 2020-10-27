@@ -29,7 +29,11 @@
 
   <header>
     <div class="content-wrapper">
-      <a href="index.html" target="_self"><img src=" " alt ="unplugged logo"></a>
+      <figure>
+        <a href="index.html" target="_self">
+          <img src="img/unplugged-logo.png" alt ="unplugged logo">
+        </a>
+      </figure>  
       <div class="header-divider"></div>
       <nav>
         <ul>
@@ -41,11 +45,9 @@
   </header>
 
   <main>
-      <section>
+      <section id="hero-section">
         <div class="content-wrapper">
-          <div class="hero-area">
-            <h1>Retreat from the desk, return refreshed.</h1> 
-          </div>
+          <h1>Retreat from the desk, return refreshed.</h1> 
         </div>         
       </section>
       <aside>
@@ -56,8 +58,8 @@
           </div>
             <div class="form">
               <h3>Find out more</h3>
-              <input type ="text" name="name" value="email address">
-              <input type ="button" vlaue="Download Itinerary">
+              <input type ="text" name="name" value="name@email address">
+              <input type ="button" value="Download Itinerary">
           </div>
         </div>
       </aside>
@@ -96,10 +98,16 @@
         <div class="content-wrapper">
           <h2>Be a better team in 5 days, like this one.</h2>
           <article>
-            <img src="" alt="">
-            <h3>LaCrue Bottling Co.<br>October 2018</h3>
-            <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tellus vitae tristique. Pellentesque eros elit, molestie efficitur turpis quis, euismod sagittis diam. Phasellus id pretium purus, sed tincidunt felis. Vivamus ornare sit amet felis ut posuere. Cras a ultricies nisl. Vivamus non nisl blandit, ullamcorper nibh ut, dapibus massa. Cras a neque sed mauris pharetra gravida ac sed tortor. Donec ornare eleifend justo. Aliquam erat volutpat. Aenean elit orci, fermentum eu felis et, tristique condimentum ex.</p>
-          </article>
+            <div class="review-column">
+              <figure>
+                <img src="img/reviews.jpg" alt="Happy team at our retreat!">
+              </figure>
+            </div>
+            <div class="review-column">  
+              <h3>LaCrue Bottling Co. October 2018</h3>
+              <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tellus vitae tristique. Pellentesque eros elit, molestie efficitur turpis quis, euismod sagittis diam. Phasellus id pretium purus, sed tincidunt felis. Vivamus ornare sit amet felis ut posuere. Cras a ultricies nisl. Vivamus non nisl blandit, ullamcorper nibh ut, dapibus massa. Cras a neque sed mauris pharetra gravida ac sed tortor.</p>
+            </div>
+            </article>
         </div>
       </section>
 
